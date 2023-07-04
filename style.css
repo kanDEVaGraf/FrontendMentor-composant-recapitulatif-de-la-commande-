@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 450px;
+    height: auto;
+    margin: 50px auto 0;
+}
+
+.container .illustration {
+    width: 450px;
+    height: 220px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container .illustration img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container .recapitulation {
+    background-color: #FFF;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container .recapitulation .title {
+    font-size: 24px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container .recapitulation p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.container .card {
+    width: 350px;
+    margin: auto;
+    height: auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.container .recapitulation .card img {
+    padding-left: 10px;
+}
+
+.container .recapitulation .card .plan .command {
+    color: hsl(223, 47%, 23%);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.container .recapitulation .card .plan .price p {
+    font-weight: bold;
+}
+
+.container .recapitulation .card a {
+    color: hsl(245, 75%, 52%);
+}
+
+.container .button {
+    width: 350px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 0;
+    background: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 12px 12px 5px 1px hsl(228, 45%, 44%, .1);
+}
+
+.container .button p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF;
+}
+
+.container .recapitulation .cancel p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
